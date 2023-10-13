@@ -37,11 +37,9 @@ const lightbox = new SimpleLightbox('.gallery a', {
 });
 
 lightbox.on('show.simplelightbox', (e) => {
-    // Your custom code here, if needed
     console.log('Image shown', e);
 });
 
 lightbox.on('close.simplelightbox', (e) => {
-    // Your custom code here, if needed
     console.log('Lightbox closed', e);
 });
